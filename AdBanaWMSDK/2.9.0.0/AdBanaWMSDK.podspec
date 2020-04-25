@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.vendored_frameworks = '**/Frameworks/*.framework'
     s.resources = '**/Resources/*.{png,bundle,xib,nib}'
-    s.frameworks = 'StoreKit','MobileCoreServices','WebKit','MediaPlayer','CoreMedia','CoreLocation','AVFoundation','CoreTelephony','SystemConfiguration','','','','','','AdSupport', 'CoreMotion','Accelerate'
+    s.frameworks = 'StoreKit','MobileCoreServices','WebKit','MediaPlayer','CoreMedia','CoreLocation','AVFoundation','CoreTelephony','SystemConfiguration','AdSupport', 'CoreMotion','Accelerate'
     s.libraries = 'c++', 'resolv.9','z','sqlite3'
     s.dependency 'AdBanaAdMobSDK'
     s.ios.deployment_target = '8.0'
